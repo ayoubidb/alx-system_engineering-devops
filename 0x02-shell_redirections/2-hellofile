@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(basename /etc/passwd)
+echo "$(</etc/passwd)"
